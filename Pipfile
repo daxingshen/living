@@ -1,14 +1,19 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.org/simple"
+url = "http://mirrors.aliyun.com/pypi/simple/"
 verify_ssl = true
 
 [dev-packages]
 
 [packages]
 openpyxl = "*"
+<<<<<<< HEAD
 requests = "*"
 gevent = "*"
+=======
+click = "*"
+numpy = "*"
+>>>>>>> c64999239d4d18305ec185690b156a56903cbe60
 
 [requires]
 python_version = "3.6"
